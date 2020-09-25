@@ -34,7 +34,7 @@ body {
     background: rgb(33, 34, 38);
     background: linear-gradient(180deg, #6780a9 0%, #0d1d38 100%) no-repeat;
     color: #f4f4f4;
-    min-height: 100px;
+    min-height: 100vh;
     font-family: 'Lato', sans-serif;
 }
 
@@ -121,7 +121,7 @@ body.loading .loader {
 
 /** Main Content  **/
 main.content {
-    padding: 20px 10px 0 10px;;
+    padding: 20px 10px 0 10px;
     display: flex;
     min-height: calc(100% - var(--header-height, 70px) - var(--footer-height, 0px));
     position: relative;
