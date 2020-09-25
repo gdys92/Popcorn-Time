@@ -34,13 +34,8 @@ body {
     background: rgb(33, 34, 38);
     background: linear-gradient(180deg, #6780a9 0%, #0d1d38 100%) no-repeat;
     color: #f4f4f4;
-    min-height: 100vh;
+    min-height: 100px;
     font-family: 'Lato', sans-serif;
-
-    --header-height: 70px;
-    --footer-height: 0px;
-    --result-grid-column: 5;
-    --poster-height: calc(100vw / 4);
 }
 
 body.loaded {
@@ -66,7 +61,7 @@ body.loading .loader {
 
 /** Header  **/
 .main-header {
-    padding: 1rem;
+    padding: 15px;
     background: rgb(0, 0, 0);
     background: linear-gradient(180deg, #6780a9 0%, #0d1d38 100%) no-repeat;
     display: flex;
@@ -126,7 +121,7 @@ body.loading .loader {
 
 /** Main Content  **/
 main.content {
-    padding: 2rem 1rem 0 1rem;
+    padding: 20px 10px 0 10px;;
     display: flex;
     min-height: calc(100% - var(--header-height, 70px) - var(--footer-height, 0px));
     position: relative;
@@ -141,7 +136,7 @@ main.content {
 .content__result .loader {
     position: absolute;
     display: inline-block;
-    margin: 2rem 1rem;
+    margin: 20px 10px;;
     width: 36px;
     height: 36px;
     border-radius: 50%;
@@ -151,15 +146,15 @@ main.content {
 }
 
 .content__result__next-btn {
-    background: #d5475d;
+    background: #b27906;
     border: none;
     color: #f4f4f4;
     outline: none;
-    padding: .3rem .85rem;
+    padding: 30px 85px;
     border-radius: 3px;
     font-size: 16px;
     cursor: pointer;
-    margin-bottom: 1rem;
+    margin-bottom: 10px;
 }
 
 .content__result__list {
@@ -167,7 +162,7 @@ main.content {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-top: 1.7rem;
+    margin-top: 20px;
 }
 
 .movie-details {
@@ -183,7 +178,7 @@ main.content {
     margin-left: 1rem;
     margin-top: 48px;
     padding: 1rem;
-    background: #040404;
+    background: #1e2844;
     box-shadow: 0 1px 10px 2px rgba(0, 0, 0, 0.3);
 }
 
@@ -200,7 +195,7 @@ main.content {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(40, 147, 235, 0.1);
     border-radius: 50%;
     color: #fff;
     font-size: 18px;
@@ -245,7 +240,7 @@ main.content {
     overflow: hidden;
     width: calc(100% + 2rem);
     height: 50vh;
-    background-color: #313030;
+    background-color: #1e2844;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -371,17 +366,12 @@ main.content {
    /* HEADER*/
 
    .main-header{
-       display: flex;
-       flex-wrap: wrap;
+    padding: 15px;
    }
    .popcorn{
        min-width: 58px;
    }
 
-   .main-header__search {
-    width: calc(100% - 320px);
-    flex: 0 0 calc(100% - 320px); 
-   }
    .main-header__search input[type="search"] {
     background: #ffffff;
     min-width: 240px;
