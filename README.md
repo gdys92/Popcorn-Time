@@ -1,7 +1,6 @@
 # Popcorn-Time
 
 Movie finder, using OMDB (Open Movie Database) API.
-
 ## Made with: 
 
 - API de OMDB (Open Movie DataBase) / OMDB (Open Movie DataBase) API.
